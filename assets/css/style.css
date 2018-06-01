@@ -1,0 +1,211 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background-color: black;*/
+	color: white;
+}
+
+body {
+	background-color: black;
+	background-image: url(assets/images/);
+}
+
+
+
+
+.about {
+	margin: 100px;
+	text-align: center;
+	background-color: black;
+	/*border:  5px solid blue;*/
+
+}
+
+.skills {
+	text-align: center;
+
+
+}
+
+a .ctrl {
+	height: 500px;
+}
+
+
+
+h1, h3 {
+	background-color: lightgrey; 
+}
+
+
+#me	{
+	border-radius: 50%;
+	border: 2px solid white;
+	height: 100px;
+	width: 100px;
+
+}
+
+#me:hover {
+	transform: scale(1.2);
+}
+
+a {
+	color: white;
+
+}
+
+a:hover { 
+	text-decoration-style: none;
+	color: lightyellow;
+	transform: scale(1.2);
+}
+
+#footRow {
+	padding-left: 40%;
+}
+
+
+i {
+	padding-right: 2em;
+}
+
+
+section {
+	/*border: 10px solid yellow;*/
+	margin: 100px;
+	padding: 100px;
+	/*min-height: 30%;*/
+	height: 500px;
+	
+}
+
+.carousel {
+	height: 800px;
+
+}
+
+.carousel-item {
+	height: 100px;
+}
+
+h2	{
+	text-align: center;
+}
+
+#carouselExampleIndicators {
+	height: 300px;
+	width: 800px;
+}
+
+#carouselExampleFade {
+	/*height: 100vh;*/
+}
+.card {
+	height: 50vh;
+	/*z-index: 99999;*/
+}
+
+
+
+#inner {
+	height: 100%;
+	padding: 1px;
+	margin: 1px;
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+	/*max-height: 10%;*/
+}
+
+
+#capLinks {
+	padding-bottom: 10px;
+	margin: 10px;
+	height: 100px;
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+#
+
+
+#footer {
+	/*position: fixed;
+	bottom: 0;*/
+	border: 2px solid red;
+	width: 100%;
+	/*margin: 0 auto;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES - always at the end*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
